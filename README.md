@@ -2,11 +2,13 @@
 
 HTML5 hockey management simulation (Football Manager style) featuring Goose vs Donald.
 
+**Repository:** https://github.com/jackiekfhui-lab/GooseDonaldHockeyManager
+
 ## Play
 
-Open `GooseDonaldHockeyManager.html` in a modern browser, or host it on any static HTTPS site.
+**Live game:** https://html5games.iofreeonline.com/GooseDonaldHockeyManager.html
 
-Live example: https://html5games.iofreeonline.com/GooseDonaldHockeyManager.html
+Or open `GooseDonaldHockeyManager.html` in any modern browser / static host.
 
 ## Features
 
@@ -20,11 +22,33 @@ Live example: https://html5games.iofreeonline.com/GooseDonaldHockeyManager.html
 - Economy: win $10 / draw $5 / loss $1
 - Procedural unique player faces
 - Auto-save (localStorage)
-- Google H5 Games Ads hooks for rewarded video
+- Google H5 Games Ads (Ad Placement API) for rewarded video
 
-## Source
+## Add the full source file to this repo
 
-Single-file game: `GooseDonaldHockeyManager.html`
+The playable game is a single ~100 KB HTML file. Upload it here:
+
+### Option A — GitHub website (easiest)
+1. Open https://github.com/jackiekfhui-lab/GooseDonaldHockeyManager
+2. Click **Add file → Upload files**
+3. Drop your published `GooseDonaldHockeyManager.html`
+4. Commit changes
+
+### Option B — Git CLI
+```bash
+git clone https://github.com/jackiekfhui-lab/GooseDonaldHockeyManager.git
+cd GooseDonaldHockeyManager
+# copy GooseDonaldHockeyManager.html into this folder
+git add GooseDonaldHockeyManager.html
+git commit -m "Add full game source"
+git push
+```
+
+### Option C — Download from live site then push
+```bash
+curl -o GooseDonaldHockeyManager.html https://html5games.iofreeonline.com/GooseDonaldHockeyManager.html
+git add GooseDonaldHockeyManager.html && git commit -m "Add full game source" && git push
+```
 
 ## License
 
