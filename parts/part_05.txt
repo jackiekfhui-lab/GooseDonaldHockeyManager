@@ -1,0 +1,19 @@
+mDraftSwap;
+window.cancelDraftSwap=cancelDraftSwap;
+
+load();
+if(!state.managerName){
+  document.getElementById("intro-overlay").classList.remove("hidden");
+} else {
+  document.getElementById("intro-overlay").classList.add("hidden");
+  renderAll();
+}
+
+document.querySelectorAll(".tab").forEach(t=>{
+  t.addEventListener("click",()=>switchTab(t.dataset.tab));
+});
+
+})();
+</script>
+</body>
+</html>
